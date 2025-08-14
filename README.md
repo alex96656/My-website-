@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My First Website</title>
+  <title>Kristin's Page</title>
   <meta charset="UTF-8">
   <style>
     body {
@@ -10,6 +10,15 @@
       text-align: center;
       color: #333;
       padding: 50px;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 4px solid white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      margin-bottom: 20px;
+      cursor: pointer;
     }
     h1 {
       font-size: 3rem;
@@ -23,26 +32,30 @@
       border-radius: 10px;
       display: inline-block;
     }
-    button {
+    a.button {
+      display: inline-block;
       margin-top: 20px;
       padding: 10px 20px;
       font-size: 1.2rem;
       background: #ff758c;
       color: white;
-      border: none;
+      text-decoration: none;
       border-radius: 25px;
-      cursor: pointer;
       transition: background 0.3s ease;
     }
-    button:hover {
+    a.button:hover {
       background: #ff416c;
     }
   </style>
 </head>
 <body>
-  <h1>Hello Nekoweb! 🚀</h1>
-  <p>Welcome to my first colorful website! 🎨</p>
+  <a href="https://www.tiktok.com/@maikai04" target="_blank">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Profile Picture">
+  </a>
+  <h1>Hello, I'm Kristin 🚀</h1>
+  <p>Welcome to my first colorful website! 🎨<br>
+     Check out my TikTok for more!</p>
   <br>
-  <button onclick="alert('Thanks for visiting! 😊')">Click Me</button>
+  <a class="button" href="https://www.tiktok.com/@maikai04" target="_blank">📱 Visit my TikTok</a>
 </body>
 </html>
