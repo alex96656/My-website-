@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Kristin's Page</title>
+  <title>Alex's Page</title>
   <meta charset="UTF-8">
   <style>
     body {
@@ -52,7 +52,7 @@
   <a href="https://www.tiktok.com/@maikai04" target="_blank">
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/ac/Default_pfp.jpg" alt="Profile Picture">
   </a>
-  <h1>Hello, I'm Kristin 🚀</h1>
+  <h1>Hello, I'm Alex 🚀</h1>
   <p>Welcome to my first colorful website! 🎨<br>
      Check out my TikTok for more!</p>
   <br>
