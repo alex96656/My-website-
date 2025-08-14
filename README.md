@@ -1,69 +1,50 @@
-<!DOCTYPE html><html>
-<head>
-  <title>TikTok Stats</title>
-  <meta charset="UTF-8">
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 50px;
-      background: #f5f5f5;
-    }
-    input, button {
-      padding: 10px;
-      font-size: 1rem;
-      margin: 5px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
-    button {
-      cursor: pointer;
-      background-color: #007bff;
-      color: white;
-      border: none;
-      transition: background 0.3s;
-    }
-    button:hover {
-      background-color: #0056b3;
-    }
-    #tiktok-stats {
-      margin-top: 20px;
-      font-size: 1.2rem;
-    }
-  </style>
-</head>
-<body>
-  <h1>TikTok Stats Fetcher</h1>
-  <input type="text" id="usernameInput" placeholder="Enter TikTok username">
-  <button onclick="fetchStats()">Fetch Stats</button>
-  <p id="tiktok-stats">Stats will appear here.</p>  <script>
-    const statsElement = document.getElementById("tiktok-stats");
-    const input = document.getElementById("usernameInput");
+# Hi there, I’m Alex! 👋
 
-    async function fetchStats() {
-      const username = input.value.trim();
-      if (!username) {
-        statsElement.textContent = "Please enter a username.";
-        return;
-      }
-      statsElement.textContent = "Loading...";
-      try {
-        const response = await fetch(`https://nekoweb.vercel.app/api/tiktok?user=${username}`);
-        const data = await response.json();
-        if (data.error) {
-          statsElement.textContent = "Failed to load TikTok stats. Make sure the username is correct.";
-          return;
-        }
-        statsElement.innerHTML = `
-          🎵 <strong>${data.username}</strong><br>
-          Followers: ${data.followers.toLocaleString()}<br>
-          Likes: ${data.likes.toLocaleString()}<br>
-          Videos: ${data.videos}
-        `;
-      } catch (err) {
-        statsElement.textContent = "Error fetching TikTok stats.";
-        console.error(err);
-      }
-    }
-  </script></body>
-</html>
+Welcome to my GitHub profile – a hub for my projects, code experiments, and technical explorations.  
+I’m passionate about technology, open source, and continuous learning.
+
+---
+
+## 🚀 About Me
+
+- 🔭 I’m currently working on: *[Your current project or focus]*
+- 🌱 I’m learning: *[Technologies or topics you’re exploring]*
+- 👯 I’m looking to collaborate on: *[Types of projects or technologies]*
+- 💬 Ask me about: *[Areas of expertise or interest]*
+- 📫 How to reach me: *[Your preferred contact method or social link]*
+
+---
+
+## 🛠️ Skills & Tools
+
+- **Languages:** *[e.g., Python, JavaScript, C#]*
+- **Frameworks:** *[e.g., React, Node.js, Django]*
+- **Tools:** *[e.g., Docker, Git, VS Code]*
+- **Other:** *[e.g., CI/CD, Cloud, DevOps]*
+
+---
+
+## 🌟 Featured Projects
+
+| Project | Description | Tech Stack |
+|---------|-------------|------------|
+| [Project Name](#) | Short summary of what it does and why it’s cool. | e.g., Python, Flask |
+| [Project Name](#) | Short summary of what it does and why it’s cool. | e.g., React, Node.js |
+
+---
+
+## 📈 GitHub Stats
+
+![Alex's GitHub stats](https://github-readme-stats.vercel.app/api?username=alex96656&show_icons=true&hide_title=true&hide_rank=false)
+
+---
+
+## 🔗 Let’s Connect
+
+- [LinkedIn](#)
+- [Twitter/X](#)
+- [Personal Website](#)
+
+---
+
+_Thanks for stopping by! ⭐️_
