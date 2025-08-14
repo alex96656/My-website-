@@ -41,9 +41,7 @@ I’m passionate about technology, open source, and continuous learning.
 
 ## 🔗 Let’s Connect
 
-- [LinkedIn](#)
-- [Twitter/X](#)
-- [Personal Website](#)
+- [Personal Website](https://realtalktime7.wordpress.com)
 
 ---
 
