@@ -8,10 +8,10 @@ I’m passionate about technology, open source, and continuous learning.
 ## 🚀 About Me
 
 - 🔭 I’m currently working on: *[Your current project or focus]*
-- 🌱 I’m learning: *[Technologies or topics you’re exploring]*
-- 👯 I’m looking to collaborate on: *[Types of projects or technologies]*
-- 💬 Ask me about: *[Areas of expertise or interest]*
-- 📫 How to reach me: *[Your preferred contact method or social link]*
+- 🌱 I’m learning: *Technology*
+- 👯 I’m looking to collaborate on: *Types of projects *
+- 💬 Ask me about: *[Areas of expertise or interest*
+- 📫 How to reach me: *t.me/Alex_omv*
 
 ---
 
